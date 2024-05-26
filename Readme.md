@@ -52,15 +52,15 @@ imports which you can fix with only dots
 if you get into the file having mestake with imports
 you will see this code:
 
-from database import Database as Database
-from column import Col as Col
-from table import Table as Table
+    from database import Database as Database
+    from column import Col as Col
+    from table import Table as Table
 
 which you can change to 
 
-from .database import Database as Database
-from .column import Col as Col
-from .table import Table as Table
+    from .database import Database as Database
+    from .column import Col as Col
+    from .table import Table as Table
 
 I hope it works well :)
 Nice coding!
